@@ -1,0 +1,56 @@
+.c--anim-btn div {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  height:350px;
+}
+
+.c--anim-btn, .c--anim-btn-content {
+  transition: 0.3s;     
+}
+
+.c--anim-btn {
+  height: 350px;
+  font: normal normal 700 1em/4em Arial,sans-serif;
+  overflow: hidden;
+  width: 350px;
+  background-color: #3b5998;
+}
+
+.c--anim-btn-content {
+  margin-top: 0em;   
+}
+
+.c--anim-btn:hover .c--anim-btn-content {
+  margin-top: -350px;
+}
+
+.c--anim-btn-hidden {
+	background-color: rgba(0, 0, 255, 0.2);
+}
+
+.periode-bleu {
+	background-image:url('../img/gallery-thumb/003.jpg');
+}
+
+.c--anim-btn a {
+	background-color:black;
+	padding:15px;
+	color:white;
+}
+
+.c--anim-btn h3 {
+	padding:5px;
+	color:white;
+	font-size:30px;
+}
+
+.c--anim-btn a:hover {
+	color:#f8f9f9;
+}
+
+
+    .slick-slide img {
+      width: 100%;
+    }

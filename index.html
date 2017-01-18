@@ -1,1 +1,86 @@
-# fred
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fredéric Guerard - Artiste peintre</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" type="text/css" href="css/bulma.css">
+  <link rel="stylesheet" type="text/css" href="css/site.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+</head>
+<body>
+  <nav class="nav has-shadow" id="top">
+    <div class="container">
+      <div class="nav-left">
+        <a class="nav-item" href="index.html">
+          <img alt="FREDERIC GUERARD" title="FREDERIC GUERARD signature" src="img/signature.jpg" />
+        </a>
+      </div>
+      <span class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+      <div class="nav-right nav-menu">
+        <a class="nav-item is-tab is-active" href="index.html">
+          Accueil 
+        </a>
+        <a class="nav-item is-tab" href="oeuvres.html">
+          Oeuvres 
+        </a>
+		<b class="nav-item is-tab">
+		contact@frederic-guerard.fr
+		</b>
+      </div>
+    </div>
+  </nav>
+  <section class="center one-time">
+    <div>
+	  <img src="img/gallery/005.jpg" alt="Alt Text!">
+    </div>
+    <div>
+      <img src="img/gallery/115.jpg">
+    </div>
+    <div>
+      <img src="img/gallery/045.jpg">
+    </div>
+    <div>
+      <img src="img/gallery/080.jpg">
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="js/slick.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    $(document).on('ready', function() {
+$('.one-time').slick({
+  dots: false, // cache les bouton de changement
+  infinite: true, // boucle infinie
+  adaptiveHeight: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+    });
+  </script>
+</body>
+</html>
